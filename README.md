@@ -1,23 +1,76 @@
-Exercício com IF em Java 2 A VINGANÇA !
-Exercício simples desenvolvido em Java para praticar o uso de estruturas condicionais if e else.
+# ➗ Metade ou Dobro em Java
 
-Objetivo
-Praticar conceitos básicos de programação, como:
+Projeto simples em **Java** para praticar entrada de dados e estruturas condicionais com `if` e `else`.
 
-Entrada de dados
-Variáveis
-Operadores de comparação
-Estruturas condicionais if e else
-Exibição de resultados
-Tecnologias
-Java
-Scanner para entrada de dados
-Execução
-Compile o arquivo:
+## 💻 Como funciona
 
-javac Main.java
-Depois execute:
+O programa solicita um número ao usuário e verifica o seu valor:
 
-java Main
-Autor
-Ramon
+- Se o número for **maior que 10**, o programa calcula a **metade**.
+- Caso contrário, o programa calcula o **dobro**.
+
+## 🧪 Exemplos
+
+Se o usuário digitar:
+
+```text
+20
+```
+
+Saída:
+
+```text
+a metade é :10.0
+```
+
+Se o usuário digitar:
+
+```text
+8
+```
+
+Saída:
+
+```text
+o dobro é :16.0
+```
+
+## 🧠 Código
+
+```java
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        double num, metade, dobro;
+
+        System.out.println("numero");
+        num = scanner.nextDouble();
+
+        if (num > 10) {
+            metade = num / 2;
+            System.out.println("a metade é :" + metade);
+        } else {
+            dobro = num * 2;
+            System.out.println("o dobro é :" + dobro);
+        }
+    }
+}
+```
+
+## 📚 O que estou praticando
+
+Neste exercício estou praticando:
+
+- `Scanner`
+- Variáveis do tipo `double`
+- Operações matemáticas
+- Estrutura `if`
+- Estrutura `else`
+- Comparação com `>`
+
+Projeto desenvolvido para estudos de **Java e lógica de programação**. ☕
