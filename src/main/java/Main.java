@@ -9,8 +9,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         
         double num , metade , dobro;
-        
-        System.out.println("numero");
+
+        IO.println("numero");
         num = scanner.nextDouble();
         
         if (num > 10){
